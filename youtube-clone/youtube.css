@@ -1,0 +1,86 @@
+
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+.container {
+	height: 300px;
+	width: 100%;
+	padding: 2px 0;
+}
+
+.title-container {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.play-btn {
+	height: 36px;
+	padding: 8px 16px;
+	background-color: transparent;
+	border: 0px solid transparent;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.play-btn:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.title {
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+.base {
+	font-size: 16px;
+	font-weight: normal;
+	color: white;
+}
+
+.subtitle {
+	font-size: 10px;
+	font-weight: lighter;
+	color: white;
+}
+
+.video-container {
+	display: flex;
+	gap: 4px;
+}
+
+.thumbnail-container {
+	height: 200px;
+	width: 16%;
+}
+
+.thumbnail {
+	border-radius: 6px;
+	background-image: url("https://i.ytimg.com/vi/5qap5aO4i9A/maxresdefault.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 156px;
+}
+
+.thumbnail img {
+	height: 100%;
+	width: auto;
+}
+
+
+.video-title {
+	margin-top: 4px;
+}
+
+.subtitle-container {
+	display: flex;
+	margin: 0;
+	align-items: center;
+	gap: 5px;
+}
